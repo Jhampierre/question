@@ -1,5 +1,5 @@
-const botonsi = document.querySelector('.nboton');
-const botonno = document.querySelector('.sboton');
+const botonsi = document.querySelector('.sboton');
+const botonno = document.querySelector('.nboton');
 
 botonsi.addEventListener('click', function() {
     alert('Gg mano, la vida continua :v');
