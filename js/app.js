@@ -1,8 +1,8 @@
-const botonsi = document.querySelector('.sboton');
-const botonno = document.querySelector('.nboton');
+const botonsi = document.querySelector('.nboton');
+const botonno = document.querySelector('.sboton');
 
 botonsi.addEventListener('click', function() {
-    alert('Gracias bb, sabía que me ibas a consentir, te amo!♥♥');
+    alert('Gg mano, la vida continua :v');
 });
 
 botonno.addEventListener('mouseover', function() {
