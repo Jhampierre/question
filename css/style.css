@@ -1,0 +1,66 @@
+body {
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+.header::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url('../img/game1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    transition: all 1000ms;
+}
+  
+.header:hover::after {
+    filter: blur(2px);
+    -webkit-filter: blur(10px);
+}
+  
+.header:hover .header-content {
+    filter: blur(-2px);
+    -webkit-filter: blur(-3px);
+}
+  
+.header-content {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: 145px;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms;
+}
+  
+.header-content .logo {
+    height: 100px;
+    width: 100px;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    top: 10%;
+  }
+  
+.sboton {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+.nboton {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
+.header-content .text {
+    line-height: 1.7;
+    margin-top: 1rem;
+}  
