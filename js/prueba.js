@@ -2,13 +2,13 @@ const botonsi = document.querySelector('.sboton');
 const botonno = document.querySelector('.nboton');
 
 botonsi.addEventListener('click', function() {
-    //alert('Prepara ese qlito bb');
-    alert('g');
+    alert('Prepara ese qlito bb ( ͡° ͜ʖ ͡°)');
+    //alert('g');
 });
 
 botonno.addEventListener('click', function() {
-    //alert('Prepara ese qlito bb');
-    alert('g');
+    alert('Prepara ese qlito bb ( ͡° ͜ʖ ͡°)');
+    //alert('g');
 });
 
 botonno.addEventListener('mouseover', function() {
