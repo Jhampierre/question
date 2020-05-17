@@ -7,7 +7,7 @@ botonsi.addEventListener('click', function() {
 });
 
 botonno.addEventListener('click', function() {
-    alert('Prepara ese qlito bb ( ͡° ͜ʖ ͡°)');
+    alert('Prepara ese qlito bb');
     //alert('g');
 });
 
