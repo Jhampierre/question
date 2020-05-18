@@ -7,7 +7,7 @@ botonsi.addEventListener('click', function() {
 });
 
 botonno.addEventListener('click', function() {
-    alert('Gg mano, la vida continúa');
+    alert('Gg bro, nunca te amó');
     //alert('g');
 });
 
