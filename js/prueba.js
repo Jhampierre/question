@@ -7,7 +7,7 @@ botonsi.addEventListener('click', function() {
 });
 
 botonno.addEventListener('click', function() {
-    alert('Gg bro, nunca te amó');
+    alert('Gg bro, ella nunca te amó');
     //alert('g');
 });
 
