@@ -2,7 +2,7 @@ const botonsi = document.querySelector('.sboton');
 const botonno = document.querySelector('.nboton');
 
 botonsi.addEventListener('click', function() {
-    alert('Gg mano, la vida continúa');
+    alert('Gg bro, ella nunca te amó');
     //alert('g');
 });
 
